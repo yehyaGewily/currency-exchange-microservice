@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS EXCHANGE_VALUE;
+
+CREATE TABLE exchange_value(
+id INT  PRIMARY KEY,
+currency_from VARCHAR(250) NOT NULL,
+currency_to VARCHAR(250) NOT NULL,
+exchange_rate DOUBLE NOT NULL
+);
+
